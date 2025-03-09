@@ -1,0 +1,114 @@
+/* General Page Styling */
+body {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login Container */
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 15px red;
+}
+/* Signup Container */
+.signup-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 15px red;
+}
+/* Admin Container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 15px red;
+}
+
+/* Titles */
+h1 {
+    font-size: 30px;
+    text-shadow: 0 0 5px red;
+}
+h2 {
+    font-size: 18px;
+    font-style: italic;
+    color: red;
+}
+h3 {
+    font-size: 22px;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(0, 255, 255, 0.1);
+    color: red;
+    text-align: center;
+    outline: none;
+    box-shadow: 0 0 5px red;
+}
+input::placeholder {
+    color: red;
+    opacity: 0.7;
+}
+
+/* Login Button */
+button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Links */
+p {
+    font-size: 14px;
+}
+p a {
+    color: red;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Terms */
+.terms {
+    margin-top: 20px;
+    opacity: 0.7;
+}
